@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora em Python</title>
+</head>
+<body>
+    <h1>Calculadora em Python</h1>
+    <form action="/calculate" method="POST">
+        <label for="num1">Número 1:</label>
+        <input type="number" id="num1" name="num1"><br><br>
+        <label for="num2">Número 2:</label>
+        <input type="number" id="num2" name="num2"><br><br>
+        <label for="operation">Operação:</label>
+        <select id="operation" name="operation">
+            <option value="add">Adição (+)</option>
+            <option value="subtract">Subtração (-)</option>
+            <option value="multiply">Multiplicação (*)</option>
+            <option value="divide">Divisão (/)</option>
+        </select><br><br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
